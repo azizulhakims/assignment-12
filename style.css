@@ -1,0 +1,53 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1587203283660-3c63f63d1fb3');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px auto;
+  padding: 20px;
+  width: 500px;
+}
+
+h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #5a6cb2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.result-container {
+  text-align: center;
+}
+
+span {
+  font-weight: 700;
+  color: #5a6cb2;
+}
